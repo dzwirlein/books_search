@@ -12,7 +12,7 @@ class Books extends Component {
   state = {
     books: [],
     q: "",
-    message: "Search For A Book To Begin!"
+    message: "Enter a Book in the Search Bar to Begin"
   };
 
   handleInputChange = event => {
